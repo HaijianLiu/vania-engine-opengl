@@ -13,7 +13,7 @@ Audio::Audio(const char* path) {
 < Destructor >
 ------------------------------------------------------------------------------*/
 Audio::~Audio() {
-	// if (this->soundBuffer != NULL) this->soundBuffer->Release();
+	
 }
 
 
@@ -26,11 +26,11 @@ bool Audio::load() {
 }
 
 void Audio::play() {
-//  getGame()->resources->iSoundEngine->play2D(this->path, this->loop);
+ getGame()->resources->iSoundEngine->play2D(this->path, this->loop);
 }
 
 bool Audio::playing() {
-//  if (getGame()->resources->iSoundEngine->isCurrentlyPlaying(this->path)) return true;
+ if (getGame()->resources->iSoundEngine->isCurrentlyPlaying(this->path)) return true;
 	return false;
 }
 
