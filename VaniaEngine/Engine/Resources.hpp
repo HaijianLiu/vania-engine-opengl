@@ -12,7 +12,7 @@ private:
 public:
 	// Quad
 	Quad* quad;
-//  irrklang::ISoundEngine* iSoundEngine;
+	irrklang::ISoundEngine* iSoundEngine;
 
 	Resources();
 	~Resources();
@@ -21,15 +21,12 @@ public:
 
 	// Loads (and generates) a shader program from file loading vertex, fragment
 	void loadShader(const char* name, const char* vertexPath, const char* fragmentPath);
-	// Retrieves a stored sader
 	Shader* getShader(const char* name);
 	// Loads (and generates) a texture from file
 	void loadTexture(const char* name, const char* path);
-	// Retrieves a stored texture
 	Texture* getTexture(const char* name);
 	// Create a Audio with path
 	void loadAudio(const char* name, const char* path);
-	// Retrieves a stored Audio
 	Audio* getAudio(const char* name);
 };
 

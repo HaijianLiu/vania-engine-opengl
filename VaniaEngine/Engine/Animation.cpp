@@ -5,9 +5,6 @@
 < Constructor >
 ------------------------------------------------------------------------------*/
 Animation::Animation(const char* textureName, float divideX, float divideY, float sampleTime) {
-	// get
-	this->timer = getGame()->timer;
-	this->resources = getGame()->resources;
 	// set parameters
 	this->textureName = textureName;
 	this->divide.x = divideX;

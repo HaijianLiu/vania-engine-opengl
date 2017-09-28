@@ -39,6 +39,7 @@
 		6021C32E1F7CAB50002C3F82 /* Scene00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6021C30F1F7CAB50002C3F82 /* Scene00.cpp */; };
 		6021C32F1F7CAB50002C3F82 /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6021C3111F7CAB50002C3F82 /* SceneManager.cpp */; };
 		6021C3301F7CAB50002C3F82 /* TiledMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6021C3131F7CAB50002C3F82 /* TiledMap.cpp */; };
+		6021C3321F7CB541002C3F82 /* libirrklang.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6021C3311F7CB541002C3F82 /* libirrklang.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -116,6 +117,7 @@
 		6021C3121F7CAB50002C3F82 /* SceneManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneManager.hpp; sourceTree = "<group>"; };
 		6021C3131F7CAB50002C3F82 /* TiledMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TiledMap.cpp; sourceTree = "<group>"; };
 		6021C3141F7CAB50002C3F82 /* TiledMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TiledMap.hpp; sourceTree = "<group>"; };
+		6021C3311F7CB541002C3F82 /* libirrklang.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirrklang.dylib; path = VaniaEngine/Libraries/irrKlang/lib/libirrklang.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6021C3321F7CB541002C3F82 /* libirrklang.dylib in Frameworks */,
 				6021C2D41F7CAA6B002C3F82 /* OpenGL.framework in Frameworks */,
 				6021C2D61F7CAA83002C3F82 /* libGLEW.2.0.0.dylib in Frameworks */,
 				6021C2D81F7CAA8F002C3F82 /* libglfw.3.2.dylib in Frameworks */,
@@ -163,6 +166,7 @@
 		6021C2D21F7CAA6B002C3F82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6021C3311F7CB541002C3F82 /* libirrklang.dylib */,
 				6021C2D71F7CAA8F002C3F82 /* libglfw.3.2.dylib */,
 				6021C2D51F7CAA83002C3F82 /* libGLEW.2.0.0.dylib */,
 				6021C2D31F7CAA6B002C3F82 /* OpenGL.framework */,
