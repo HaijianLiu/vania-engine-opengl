@@ -454,13 +454,13 @@
 				DEVELOPMENT_TEAM = 4M5A36G82A;
 				HEADER_SEARCH_PATHS = (
 					/usr/local/include,
-					"$(PROJECT_DIR)/VaniaEngine/Libraries/irrKlang/include",
+					"$(PROJECT_DIR)/Libraries/irrKlang/inc",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Cellar/glew/2.0.0/lib,
 					/usr/local/Cellar/glfw/3.2.1/lib,
-					"$(PROJECT_DIR)/VaniaEngine/Libraries/irrKlang/lib",
+					"$(PROJECT_DIR)Libraries/irrKlang/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -473,13 +473,13 @@
 				DEVELOPMENT_TEAM = 4M5A36G82A;
 				HEADER_SEARCH_PATHS = (
 					/usr/local/include,
-					"$(PROJECT_DIR)/VaniaEngine/Libraries/irrKlang/include",
+					"$(PROJECT_DIR)/Libraries/irrKlang/inc",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Cellar/glew/2.0.0/lib,
 					/usr/local/Cellar/glfw/3.2.1/lib,
-					"$(PROJECT_DIR)/VaniaEngine/Libraries/irrKlang/lib",
+					"$(PROJECT_DIR)Libraries/irrKlang/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
