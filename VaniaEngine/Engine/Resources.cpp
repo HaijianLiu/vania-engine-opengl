@@ -30,13 +30,13 @@ void Resources::start() {
 
 	/* Shader
 	..............................................................................*/
-	Resources::loadShader("Sprite", "/Users/haijian/Documents/OpenGL/vania-OpenGL/vania-OpenGL/Shader/Sprite.vs.glsl",  "/Users/haijian/Documents/OpenGL/vania-OpenGL/vania-OpenGL/Shader/Sprite.fs.glsl");
-	Resources::loadShader("SpriteFlash", "/Users/haijian/Documents/OpenGL/vania-OpenGL/vania-OpenGL/Shader/Sprite.vs.glsl",  "/Users/haijian/Documents/OpenGL/vania-OpenGL/vania-OpenGL/Shader/SpriteFlash.fs.glsl");
-	Resources::loadShader("RenderPass", "/Users/haijian/Documents/OpenGL/vania-OpenGL/vania-OpenGL/Shader/RenderPass.vs.glsl",  "/Users/haijian/Documents/OpenGL/vania-OpenGL/vania-OpenGL/Shader/RenderPass.fs.glsl");
+	Resources::loadShader("Sprite", "./Assets/Shaders/Sprite.vs.glsl",  "./Assets/Shaders/Sprite.fs.glsl");
+	Resources::loadShader("SpriteFlash", "./Assets/Shaders/Sprite.vs.glsl",  "./Assets/Shaders/SpriteFlash.fs.glsl");
+	Resources::loadShader("RenderPass", "./Assets/Shaders/RenderPass.vs.glsl",  "./Assets/Shaders/RenderPass.fs.glsl");
 
 	/* Texture
 	..............................................................................*/
-	Resources::loadTexture("default", "/Users/haijian/Documents/OpenGL/vania-OpenGL/vania-OpenGL/Assets/Texture/default_16x16.png");
+	Resources::loadTexture("default", "./Assets/Textures/default_16x16.png");
 
 	/* Audio
 	..............................................................................*/
