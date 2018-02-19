@@ -23,4 +23,9 @@ xcuserdata/
 *.xcscmblueprint
 .DS_Store
 
-Maps/
+Frameworks/
+BGM/
+SE/
+Models/
+HDR/
+nodes/
